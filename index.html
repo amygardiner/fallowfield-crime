@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+     <meta charset="utf-8">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+     <link rel="stylesheet" type="text/css" href="fallowfield-crime.css">
+       <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+  <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="fallowfield-crime-form.html">LOG AN INCIDENT</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+     <ul class="nav navbar-nav navbar-right">
+       <li><a href="#">MAP</a></li>
+       <li><a href="#">HISTORY</a></li>
+       <li><a href="#">MORE FALLOWFIELD</a></li>
+     </ul>
+   </div>
+      </div>
+    </nav>
+<div class="container-fluid bg-1 text-center">
+  <h3>Fallowfield Crime</h3>
+   <div id="map"class="circle-text"></div>
+  </div>
+<div class="container-fluid bg-2 text-center">
+    <div class="tableContainer">
+  <table class="table table-hover">
+  <tr>
+    <th>Date</th>
+    <th>Time</th>
+    <th>Location</th>
+    <th>Description</th>
+      </tr>
+      <tr>
+        <td>   </td>
+        <td>   </td>
+        <td>   </td>
+        <td>   </td>
+        </tr>
+        <tr>
+        <td>   </td>
+        <td>   </td>
+        <td>   </td>
+        <td>   </td>
+        </tr>
+        <tr>
+        <td>   </td>
+        <td>   </td>
+        <td>   </td>
+        <td>   </td>
+        </tr>
+        <tr>
+        <td>   </td>
+        <td>   </td>
+        <td>   </td>
+        <td>   </td>
+        </tr>
+        <tr>
+        <td>   </td>
+        <td>   </td>
+        <td>   </td>
+        <td>   </td>
+        </tr>
+        <tr>
+        <td>   </td>
+        <td>   </td>
+        <td>   </td>
+        <td>   </td>
+      </tr>
+      <tr>
+        <td>   </td>
+        <td>   </td>
+        <td>   </td>
+        <td>   </td>
+      </tr>
+      <tr>
+        <td>   </td>
+        <td>   </td>
+        <td>   </td>
+        <td>   </td>
+      </tr>
+      <tr>
+        <td>   </td>
+        <td>   </td>
+        <td>   </td>
+        <td>   </td>
+      </tr>
+      <tr>
+        <td>   </td>
+        <td>   </td>
+        <td>   </td>
+        <td>   </td>
+      </tr>
+    </table>
+  </div>
+</div>
+    <script>
+      function initMap() {
+        var fallowfield = {lat: 53.441061, lng: -2.225921};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 16,
+          center: fallowfield
+        });
+        var marker = new google.maps.Marker({
+          position: fallowfield,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCqI9fZ3iy-kSe5x-Jz71_YQmtS7wG_QIM&callback=initMap">
+    </script>
+  </body>
+</html>
