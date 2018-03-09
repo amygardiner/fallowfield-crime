@@ -2,6 +2,24 @@ body {
   text-align: center;
 }
 
+.navbar {
+   padding-top: 15px;
+   border: 0;
+   border-radius: 0;
+   margin-bottom: 0;
+   font-size: 12px;
+   letter-spacing: 5px;
+ }
+
+.theme1 {
+  background-color: #1abc9c;
+  color: #ffffff;
+}
+
+.dateof {
+  padding-top: 15px;
+}
+
 #locationbox {
   margin-left: 165px;
   margin-bottom: 35px;
@@ -9,4 +27,8 @@ body {
 
 #usec {
   margin-left: 15px;
+}
+
+.btn-default {
+  margin-bottom: 20px;
 }
