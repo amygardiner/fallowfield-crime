@@ -22,6 +22,15 @@ body {
 #locationbox {
   margin-left: 165px;
   margin-bottom: 35px;
+  color: #474e5d;
+}
+
+#date {
+  color: #474e5d;
+}
+
+#time {
+  color: #474e5d;
 }
 
 #usec {

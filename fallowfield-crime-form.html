@@ -4,7 +4,6 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
       <link rel="stylesheet" type="text/css" href="fallowfield-crime-form.css" >
-  <form action="/action_page.php" target="_blank">
 </head>
 <body>
 
@@ -30,7 +29,7 @@
   </div>
 
 <script>
-var x = document.getElementById("locationbox");
+
 
 function getLocation() {
     if (navigator.geolocation) {
@@ -41,7 +40,8 @@ function getLocation() {
 }
 
 function showPosition(position) {
-    x.innerHTML = "Latitude: " + position.coords.latitude +
+  var x = document.getElementById("locationbox");
+    x.value = "Latitude: " + position.coords.latitude +
     "<br>Longitude: " + position.coords.longitude;
 }
 </script>
