@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
      <meta charset="utf-8">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
      <link rel="stylesheet" type="text/css" href="fallowfield-crime.css">
        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
@@ -38,7 +39,7 @@
     <th>DATE</th>
     <th>TIME</th>
     <th>LOCATION</th>
-    <th>DESCRIPTION</th>
+    <th>DESCRIPTIONs</th>
       </tr>
       <tr>
         <td>   </td>
@@ -103,6 +104,12 @@
     </table>
   </div>
 </div>
+
+<div class="container-fluid bg-3 text-center">
+  <h3> Follow Fallowfield elsewhere online: </h3>
+  <a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+</div>
     <script>
       function initMap() {
         var fallowfield = {lat: 53.441061, lng: -2.225921};
@@ -115,6 +122,7 @@
           map: map
         });
       }
+
     </script>
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCqI9fZ3iy-kSe5x-Jz71_YQmtS7wG_QIM&callback=initMap">
