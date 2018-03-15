@@ -21,7 +21,6 @@ body {
 
 #locationbox {
   margin-left: 165px;
-  margin-bottom: 35px;
   color: #474e5d;
 }
 
@@ -30,6 +29,11 @@ body {
 }
 
 #time {
+  color: #474e5d;
+}
+
+#descriptionbox {
+  margin-bottom: 35px;
   color: #474e5d;
 }
 
